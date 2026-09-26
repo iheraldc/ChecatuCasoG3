@@ -26,3 +26,19 @@ Content-Type: application/json
     "confirmarContrasena": "Clave2026",
     "aceptaTerminos": true
 }
+###
+POST {{baseUrl}}/usuarios
+Content-Type: application/json
+
+{
+    "codTipoDocumento": "04",
+    "numDocumento": "90646318",
+    "nombres": " Diego Reydel",
+    "apePaterno": "Gamarra",
+    "apeMaterno": "De la Cruz",
+    "correo": "diereydel@autonoma.edu.pe",
+    "celular": "981478974",
+    "contrasena": "Clave2027",
+    "confirmarContrasena": "Clave2027",
+    "aceptaTerminos": true
+}
