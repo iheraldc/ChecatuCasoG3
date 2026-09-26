@@ -11,5 +11,57 @@
         "contrasena": "contraseña2026",
         "aceptaTerminos": true,
         "fechaRegistro": "2026-09-25T00:00:00.000Z"
+    },
+    {
+        "codigo": "2",
+        "codTipoDocumento": "01",
+        "numDocumento": "72345678",
+        "nombres": "Ana Lucia",
+        "apePaterno": "Torres",
+        "apeMaterno": "Ramirez",
+        "correo": "atorres@autonoma.edu.pe",
+        "celular": "912345678",
+        "contrasena": "MiClave2026",
+        "aceptaTerminos": true,
+        "fechaRegistro": "2026-09-26T05:04:13.652Z"
+    },
+    {
+        "codigo": "3",
+        "codTipoDocumento": "01",
+        "numDocumento": "123",
+        "nombres": "Carlos",
+        "apePaterno": "Ramos",
+        "apeMaterno": "Diaz",
+        "correo": "correo-invalido",
+        "celular": "12345",
+        "contrasena": "Clave2026",
+        "aceptaTerminos": true,
+        "fechaRegistro": "2026-09-26T05:04:42.728Z"
+    },
+    {
+        "codigo": "4",
+        "codTipoDocumento": "01",
+        "numDocumento": "12345678",
+        "nombres": "Klaus",
+        "apePaterno": "Gatjens",
+        "apeMaterno": "Valenzuela",
+        "correo": "kgatjens@autonoma.edu.pe",
+        "celular": "987654321",
+        "contrasena": "Clave2026",
+        "aceptaTerminos": true,
+        "fechaRegistro": "2026-09-26T05:10:33.504Z"
+    },
+    {
+        "codigo": "5",
+        "codTipoDocumento": "01",
+        "numDocumento": "12345678",
+        "nombres": "Daniel",
+        "apePaterno": "Prado",
+        "apeMaterno": "Jimenez",
+        "correo": "dprado@autonoma.edu.pe",
+        "celular": "987654321",
+        "contrasena": "Clave2026",
+        "aceptaTerminos": true,
+        "fechaRegistro": "2026-09-26T05:10:49.864Z"
     }
 ]
