@@ -1,0 +1,18 @@
+[
+    {
+        "codigo": "01",
+        "descripcion": "DNI"
+    },
+    {
+        "codigo": "04",
+        "descripcion": "Carnet de Extranjeria"
+    },
+    {
+        "codigo": "07",
+        "descripcion": "Pasaporte"
+    },
+    {
+        "codigo": "08",
+        "descripcion": "Documento Legal Identidad requerido S.N.Migraciones"
+    }
+]

@@ -1,0 +1,78 @@
+@baseUrl = https://localhost:3000/v1/api
+
+### ===================== TIPOS DE DOCUMENTO =====================
+
+### Listar tipos de documento (200)
+GET {{baseUrl}}/tipodocumentos
+
+### Obtener tipo de documento por codigo (200)
+GET {{baseUrl}}/tipodocumentos/01
+
+### Tipo de documento inexistente (404)
+GET {{baseUrl}}/tipodocumentos/99
+
+
+### ========================== USUARIOS ==========================
+
+### Listar usuarios (200)
+GET {{baseUrl}}/usuarios
+
+### Obtener usuario por codigo (200)
+GET {{baseUrl}}/usuarios/1
+
+### Usuario inexistente (404)
+GET {{baseUrl}}/usuarios/999
+
+### Registrar usuario (201)
+POST {{baseUrl}}/usuarios
+Content-Type: application/json
+
+{
+    "codTipoDocumento": "01",
+    "numDocumento": "72345678",
+    "nombres": "Ana Lucia",
+    "apePaterno": "Torres",
+    "apeMaterno": "Ramirez",
+    "correo": "atorres@autonoma.edu.pe",
+    "celular": "912345678",
+    "contrasena": "MiClave2026",
+    "confirmarContrasena": "MiClave2026",
+    "aceptaTerminos": true
+}
+
+### Registrar usuario con documento ya registrado (409)
+POST {{baseUrl}}/usuarios
+Content-Type: application/json
+
+{
+    "codTipoDocumento": "01",
+    "numDocumento": "45784578",
+    "nombres": "Miguel",
+    "apePaterno": "Gabriele",
+    "apeMaterno": "Ruesta",
+    "correo": "otro@autonoma.edu.pe",
+    "celular": "987654321",
+    "contrasena": "Clave2026",
+    "confirmarContrasena": "Clave2026",
+    "aceptaTerminos": true
+}
+
+### Registrar usuario con datos invalidos (400)
+POST {{baseUrl}}/usuarios
+Content-Type: application/json
+
+{
+    "codTipoDocumento": "01",
+    "numDocumento": "123",
+    "nombres": "Carlos",
+    "apePaterno": "Ramos",
+    "apeMaterno": "Diaz",
+    "correo": "correo-invalido",
+    "celular": "12345",
+    "contrasena": "Clave2026",
+    "confirmarContrasena": "OtraClave",
+    "aceptaTerminos": false
+}
+
+### Ruta inexistente (404)
+GET {{baseUrl}}/departamentos
