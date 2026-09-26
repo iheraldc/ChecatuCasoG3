@@ -1,7 +1,7 @@
 import express from 'express';
 import crypto from 'node:crypto';
 import { readData, writeData } from '../../db/DBUsuario.js';
-import { readData as readTipoDocumentos } from '../../db/DBTipoDocumento.js';
+// import { readData as readTipoDocumentos } from '../../db/DBTipoDocumento.js';
 
 export const usuarios = express.Router();
 

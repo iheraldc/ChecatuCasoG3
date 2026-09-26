@@ -8,8 +8,8 @@ const PUERTO = 3000;
 
 // Certificado Self-Signed (generado con openssl, ver README.md)
 const opciones = {
-    key: fs.readFileSync('../cert/key.pem'),
-    cert: fs.readFileSync('../cert/cert.pem')
+    key: fs.readFileSync('./cert/servidor.key'),
+    cert: fs.readFileSync('./cert/servidor.cert')
 };
 
 const app = express();
