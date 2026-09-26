@@ -46,11 +46,11 @@ Content-Type: application/json
 
 {
     "codTipoDocumento": "01",
-    "numDocumento": "45784578",
-    "nombres": "Miguel",
-    "apePaterno": "Gabriele",
-    "apeMaterno": "Ruesta",
-    "correo": "otro@autonoma.edu.pe",
+    "numDocumento": "12345678",
+    "nombres": "Klaus",
+    "apePaterno": "Gatjens",
+    "apeMaterno": "Valenzuela",
+    "correo": "kgatjens@autonoma.edu.pe",
     "celular": "987654321",
     "contrasena": "Clave2026",
     "confirmarContrasena": "Clave2026",

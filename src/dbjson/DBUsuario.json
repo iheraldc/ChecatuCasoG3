@@ -2,13 +2,13 @@
     {
         "codigo": "1",
         "codTipoDocumento": "01",
-        "numDocumento": "45784578",
-        "nombres": "Miguel",
-        "apePaterno": "Gabriele",
-        "apeMaterno": "Ruesta",
-        "correo": "mgabriele@autonoma.edu.pe",
+        "numDocumento": "12345678",
+        "nombres": "Christian",
+        "apePaterno": "Asto",
+        "apeMaterno": "Jeri",
+        "correo": "castoj@autonoma.edu.pe",
         "celular": "987654321",
-        "contrasena": "0cd9c81e660d33cdb726453cb002fbbd:2566566612ad702b4fcff77de35bd37c0b74d70e3404062888c52bfcb8819d665439ba2db6ee28bc8beaa59be59a4eec15e511b50cd59aebb97c6c79fc6cb0d2",
+        "contrasena": "contraseña2026",
         "aceptaTerminos": true,
         "fechaRegistro": "2026-09-25T00:00:00.000Z"
     }
