@@ -1,4 +1,9 @@
 # Checa tu Caso - Registro de Usuario (Grupo 03)
+Integrantes:
+- Klaus Gatjens
+- Daniel Prado
+- Christian Asto
+
 
 API REST que implementa el formulario **Registro de Usuario** del aplicativo
 [Checa tu Caso](https://checatucaso.osiptel.gob.pe/#/mnt/registro) de OSIPTEL.
