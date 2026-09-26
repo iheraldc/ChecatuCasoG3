@@ -8,7 +8,7 @@ Integrantes:
 API REST que implementa el formulario **Registro de Usuario** del aplicativo
 [Checa tu Caso](https://checatucaso.osiptel.gob.pe/#/mnt/registro) de OSIPTEL.
 
-Curso de Laboratorio BackEnd 2026-02.
+Curso de Laboratorio de backend inteligente y apis autónomas
 
 ## Tecnologias
 
